@@ -91,7 +91,7 @@ header img{
 .navigation{
   top: 108px;
 }
-/* nav{
+nav{
   background: #dfd3c3;
   padding: 10px;
   position: sticky;
@@ -117,7 +117,7 @@ nav li a{
 }
 nav li a:hover{
   text-decoration: underline;
-} */
+}
 main{
   max-width: 100%;
   width: 1800px;
