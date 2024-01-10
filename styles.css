@@ -222,7 +222,12 @@ footer{
 } 
 .copyright{
   position: relative;
-  font-size: 18px;
+  font-size: 14px;
+  /* bottom: 20px; */
+}
+.disclaim{
+  position: relative;
+  font-size: 14px;
   /* bottom: 20px; */
 }
 .question p::first-line{
