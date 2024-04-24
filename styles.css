@@ -171,8 +171,6 @@ iframe{
 }
 
 .slideshow{
-  border: #596e79;
-  border-style: dashed;
   width:600px; 
   height:400px; 
   overflow:hidden; 
