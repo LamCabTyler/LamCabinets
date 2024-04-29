@@ -187,7 +187,7 @@ iframe{
 
 .container .image-container img:hover{
   transform: scale(1.03);
-  opacity: 60%;
+  /* opacity: 60%; */
 }
 
 #image-text .text{
