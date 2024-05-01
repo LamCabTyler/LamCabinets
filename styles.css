@@ -24,9 +24,10 @@ h2{
 }
 header{
   background-color: #c7b198;
-  height: 6em;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
   padding-top: 1vmax;
-  padding-bottom: 2vmax;
+  padding-bottom: 1vmax;
   text-align: center;
   position: sticky;
   top: 0;
@@ -66,8 +67,8 @@ header h1{
   display: inline-block;
   padding-right: 42px;
   padding-left:42px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  /* padding-top: 12px;
+  padding-bottom: 12px; */
   border-radius: 18px;
   border-color: #596e79;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -89,6 +90,7 @@ header img{
   width: 100%;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
+  transform: translateY(-24px);
 }
 .banner .welcome{
   background: #596e79;
@@ -113,7 +115,7 @@ nav{
   background: #dfd3c3;
   padding: 10px;
   position: sticky;
-  top: 120px;
+  top: 105px;
   z-index: 1;
   border-radius: 24px;
 }
