@@ -41,6 +41,15 @@ header{
   font-weight: 100;
   color: black;
 }
+p.info{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+div#content-wrap{
+  padding-bottom: 0;
+}
 header h1{
   color: #596e79;
   /* border-bottom: 5px solid white;
@@ -121,7 +130,7 @@ nav li a:hover{
 main{
   max-width: 100%;
   width: 1800px;
-  margin: 80px auto;
+  margin: 20px auto;
   padding: 0 40px;
   box-sizing: border-box;
 }
