@@ -263,14 +263,7 @@ iframe{
   font-size: 36px;
   color: black;
   text-decoration: underline;
-}
-
-.aamco{
-  font-size: 36px;
-  color: black;
-  text-decoration: underline;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .dtron{
