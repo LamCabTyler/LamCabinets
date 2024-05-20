@@ -70,6 +70,19 @@ ol{
 div#content-wrap{
   padding-bottom: 0;
 }
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  /* border-radius: 1rem; */
+  /* margin: .5rem; */
+}
+
+.container img{
+  border-radius: 1rem;
+  margin: .5rem;
+}
+
 header h1{
   color: #596e79;
   /* border-bottom: 5px solid white;
@@ -186,9 +199,7 @@ article p{
 .images li:hover{
   top: -15px;
 }
-.images li img{
-  max-width: 100%;
-}
+
 .logo:hover{
  top: 10px;
 }
@@ -206,25 +217,29 @@ iframe{
   position: relative;
 }
 
+.container img:hover{
+  transform: scale(1.03);
+}
+
 .container .image-container{
   columns: 15rem 3;
   display: inline-block;
   gap: 1.4rem;
 }
 
+.container .image-container2{
+  columns: 15rem 2;
+  display: inline-block;
+  gap: 1.4rem;
+}
+
+.container .aamco-img{
+  columns: 15rem 2;
+  display: inline-block;
+}
+
 .container .description{
   position: absolute;
-}
-
-.container .image-container img{
-  width: 100%;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
-}
-
-.container .image-container img:hover{
-  transform: scale(1.03);
-  /* opacity: 60%; */
 }
 
 #image-text .text{
@@ -242,6 +257,30 @@ iframe{
   color: #596e79;
   text-align: center;
   font-weight: bold;
+}
+
+.cow{
+  font-size: 36px;
+  color: black;
+  text-decoration: underline;
+}
+
+.aamco{
+  font-size: 36px;
+  color: black;
+  text-decoration: underline;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dtron{
+  font-size: 36px;
+  color: black;
+  text-decoration: underline;
+}
+
+.desc .dtron:hover{
+  font-size: 38px;
 }
 
 .address {
