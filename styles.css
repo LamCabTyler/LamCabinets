@@ -288,6 +288,13 @@ iframe{
   font-size: 48px;
 }
 
+mark{
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  background-color: black;
+}
+
 .dtron{
   font-size: 36px;
   color: black;
