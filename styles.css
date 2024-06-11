@@ -32,6 +32,7 @@ header{
   position: sticky;
   top: 0;
   left: 0;
+  height: 130px;
   z-index: 1;
 }
 
@@ -97,7 +98,7 @@ header h1{
   font-size: 45px;
 }
 header img{
-  display: inline;
+  display: block;
   list-style-type: none;
   width: 10%;
   max-width: 100px;
@@ -136,7 +137,7 @@ header img{
   font-weight: 100;
 }
 .navigation{
-  top: 108px;
+  top: 125px;
 }
 nav{
   background: #dfd3c3;
