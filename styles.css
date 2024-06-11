@@ -26,8 +26,8 @@ header{
   background-color: #c7b198;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
-  padding-top: 1vmax;
-  padding-bottom: 1vmax;
+  /* padding-top: 1vmax;
+  padding-bottom: 1vmax; */
   text-align: center;
   position: sticky;
   top: 0;
@@ -86,9 +86,6 @@ img{
 }
 
 header h1{
-  color: #596e79;
-  /* border-bottom: 5px solid white;
-  border-top: 5px solid white; */
   display: inline-block;
   padding-right: 42px;
   padding-left:42px;
@@ -100,7 +97,7 @@ header h1{
   font-size: 45px;
 }
 header img{
-  display: block;
+  display: inline;
   list-style-type: none;
   width: 10%;
   max-width: 100px;
@@ -192,10 +189,11 @@ article p{
   white-space: nowrap;
 }
 .images map{
-  text-align: center;
+display: flex;  
   margin: 0 0;
   white-space: nowrap;
 }
+
 .images li{
   display: inline-block;
   list-style-type: none;
@@ -212,7 +210,7 @@ article p{
 }
 iframe{
   border-radius: 24px;
-  display: inline-block;
+  display: flex;
   position: relative;
   top: 50%;
   left: 50%;
@@ -248,6 +246,11 @@ iframe{
 .container .description{
   position: absolute;
 }
+
+.slideshow-container{
+  display: flex;
+}
+
 
 #image-text .text{
   position: relative;
